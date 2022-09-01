@@ -26,3 +26,7 @@ function getAverageAge(arr) {
   return users.reduce((acc, { age }) => acc + age, 0) / arr.length;
 }
 console.log(getAverageAge(users));
+
+const namesArray = users.map((item) => item.name);
+
+console.log(namesArray);
