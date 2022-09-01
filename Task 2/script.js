@@ -10,5 +10,3 @@ document.querySelector("button").addEventListener("click", () => {
   counter++;
   document.querySelector("h1").innerText = counter;
 });
-
-//nieko nesuprantu- jsitoriuje šitas kodas veikia, VS Code- niekaip

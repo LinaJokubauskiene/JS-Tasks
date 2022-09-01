@@ -23,7 +23,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-#button {
+#btn__element {
   width: 75%;
   padding: 15px 25px;
   background-color: #222;
@@ -34,12 +34,12 @@
   text-align: center;
 }
 
-#button:hover {
+#btn__element:hover {
   cursor: pointer;
   background-color: rgb(59, 59, 59);
 }
 
-#h1 {
+h1 {
   width: 25%;
   padding: 15px 25px;
   background-color: rgb(59, 59, 59);
