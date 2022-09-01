@@ -26,5 +26,5 @@ class Movie {
   }
 }
 
-const m1 = new Movie("Mumija", "Steven Summers", 100015);
+const m1 = new Movie("Mumija", "Steven Summers", 10000015);
 console.log(m1.wasExpensive());
