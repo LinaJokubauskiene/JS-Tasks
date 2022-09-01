@@ -20,5 +20,9 @@ const users = [
   { id: "9", name: "Daniel Cane", age: 51 },
 ];
 
+let arr = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
-function getUserAverageAge
+function getAverageAge(arr) {
+  return users.reduce((acc, { age }) => acc + age, 0) / arr.length;
+}
+console.log(getAverageAge(users));
