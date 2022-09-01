@@ -9,13 +9,24 @@ atveju grąžins visų "users" vardus naujame masyve pvz., ['John Smith', 'Ann S
 -------------------------------------------------------------------------- */
 
 const users = [
-  { id: '1', name: 'John Smith', age: 20 },
-  { id: '2', name: 'Ann Smith', age: 24 },
-  { id: '3', name: 'Tom Jones', age: 31 },
-  { id: '4', name: 'Rose Peterson', age: 17 },
-  { id: '5', name: 'Alex John', age: 25 },
-  { id: '6', name: 'Ronald Jones', age: 63 },
-  { id: '7', name: 'Elton Smith', age: 16 },
-  { id: '8', name: 'Simon Peterson', age: 30 },
-  { id: '9', name: 'Daniel Cane', age: 51 },
+  { id: "1", name: "John Smith", age: 20 },
+  { id: "2", name: "Ann Smith", age: 24 },
+  { id: "3", name: "Tom Jones", age: 31 },
+  { id: "4", name: "Rose Peterson", age: 17 },
+  { id: "5", name: "Alex John", age: 25 },
+  { id: "6", name: "Ronald Jones", age: 63 },
+  { id: "7", name: "Elton Smith", age: 16 },
+  { id: "8", name: "Simon Peterson", age: 30 },
+  { id: "9", name: "Daniel Cane", age: 51 },
 ];
+
+let arr = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+
+function getAverageAge(arr) {
+  return users.reduce((acc, { age }) => acc + age, 0) / arr.length;
+}
+console.log(getAverageAge(users));
+
+const namesArray = users.map((item) => item.name);
+
+console.log(namesArray);

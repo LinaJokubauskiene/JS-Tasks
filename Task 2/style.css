@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -39,7 +39,7 @@
   background-color: rgb(59, 59, 59);
 }
 
-#btn__state {
+h1 {
   width: 25%;
   padding: 15px 25px;
   background-color: rgb(59, 59, 59);
